@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy",
-  description: "Silikon Networks Privacy Policy — how we collect, use, and protect your data.",
+  title: "Privacy Policy — Silikon Networks",
+  description:
+    "Silikon Networks Privacy Policy: how we collect, use, store, and protect your personal data, including OTP and phone number handling.",
 };
 
 export default function PrivacyPage() {
@@ -15,106 +16,162 @@ export default function PrivacyPage() {
           <p className="sn-lead">Last updated: November 21, 2025</p>
 
           <div className="sn-legal-content">
+
+            {/* 1. INTRODUCTION */}
             <section>
               <h2>1. Introduction</h2>
               <p>
-                Silikon Networks ("we", "our", or "us") respects your privacy and is committed to
-                protecting your personal data. This privacy policy explains how we collect, use, and
-                safeguard your information when you visit our website or use our services.
+                Silikon Networks (“we”, “our”, “us”) is committed to protecting your privacy.
+                This Privacy Policy explains how we collect, use, store, and safeguard your
+                personal information when you interact with our website or services.
               </p>
             </section>
 
+            {/* 2. DATA WE COLLECT */}
             <section>
               <h2>2. Data We Collect</h2>
-              <p>We may collect the following types of personal data:</p>
+              <p>We may collect the following types of information:</p>
               <ul>
-                <li>Name and contact information (email, phone, address)</li>
-                <li>Company information</li>
-                <li>Information provided in contact forms or correspondence</li>
-                <li>Website usage data through cookies and similar technologies</li>
-                <li>Any other information you voluntarily provide</li>
+                <li>Name and contact details (email, phone number, address)</li>
+                <li>Business or company information</li>
+                <li>Information submitted through forms, applications, or service requests</li>
+                <li>Phone numbers used for verification, authentication, or service activation</li>
+                <li>Technical, device, and usage data (cookies, analytics, IP address)</li>
+                <li>Any information voluntarily provided by you</li>
               </ul>
             </section>
 
+            {/* 3. PHONE NUMBER & OTP USAGE */}
             <section>
-              <h2>3. How We Use Your Data</h2>
-              <p>We use your personal data for the following purposes:</p>
-              <ul>
-                <li>To respond to your inquiries and provide customer support</li>
-                <li>To deliver our services and fulfill contracts</li>
-                <li>To send marketing communications (with your consent)</li>
-                <li>To improve our website and services</li>
-                <li>To comply with legal obligations</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2>4. Cookies</h2>
+              <h2>3. Phone Number & OTP Usage</h2>
               <p>
-                We use cookies to enhance your browsing experience. For more information, see our{" "}
+                When you provide your phone number, we may use it to send One-Time Passwords
+                (OTPs) or verification codes to:
+              </p>
+              <ul>
+                <li>Confirm your identity</li>
+                <li>Authenticate login or account access</li>
+                <li>Secure certain features or actions within our services</li>
+              </ul>
+
+              <p>
+                OTP delivery is handled through secure communication channels using licensed
+                third-party providers. These providers operate under strict confidentiality
+                and data protection standards.
+              </p>
+
+              <p>
+                We do <strong>not</strong> share, sell, or rent phone numbers to any third party
+                for advertising or marketing purposes.
+              </p>
+            </section>
+
+            {/* 4. HOW WE USE DATA */}
+            <section>
+              <h2>4. How We Use Your Data</h2>
+              <p>Your information may be used to:</p>
+              <ul>
+                <li>Respond to inquiries and provide customer support</li>
+                <li>Deliver, manage, and improve our services</li>
+                <li>Enable phone number verification and secure authentication</li>
+                <li>Improve website performance and user experience</li>
+                <li>Send service-related notifications or important updates</li>
+                <li>Meet regulatory, compliance, or legal obligations</li>
+              </ul>
+            </section>
+
+            {/* 5. COOKIES */}
+            <section>
+              <h2>5. Cookies</h2>
+              <p>
+                We use cookies to provide a better browsing experience. Learn more in our{" "}
                 <Link href="/cookies">Cookie Policy</Link>.
               </p>
             </section>
 
+            {/* 6. THIRD-PARTY SERVICES */}
             <section>
-              <h2>5. Third-Party Services</h2>
+              <h2>6. Third-Party Services</h2>
               <p>
-                We may share your data with trusted third-party service providers who assist us in
-                operating our website and providing services. These providers are bound by
-                confidentiality agreements.
+                We may engage trusted third-party partners to support our operations,
+                including:
               </p>
-            </section>
-
-            <section>
-              <h2>6. Data Retention</h2>
-              <p>
-                We retain your personal data only for as long as necessary to fulfill the purposes
-                outlined in this policy, unless a longer retention period is required by law.
-              </p>
-            </section>
-
-            <section>
-              <h2>7. Your Rights</h2>
-              <p>Depending on your location, you may have the following rights:</p>
               <ul>
-                <li>Right to access your personal data</li>
-                <li>Right to rectify inaccurate data</li>
-                <li>Right to erasure ("right to be forgotten")</li>
-                <li>Right to restrict processing</li>
-                <li>Right to data portability</li>
-                <li>Right to object to processing</li>
-                <li>Right to withdraw consent</li>
+                <li>Hosting and infrastructure providers</li>
+                <li>Email and SMS delivery partners (including OTP delivery)</li>
+                <li>Analytics, monitoring, and security services</li>
               </ul>
+
+              <p>
+                These partners access only the information necessary to perform their
+                functions and are required to maintain strict confidentiality.
+              </p>
             </section>
 
+            {/* 7. DATA RETENTION */}
+            <section>
+              <h2>7. Data Retention</h2>
+              <p>
+                We retain personal data only for as long as needed to fulfill the purposes
+                described in this policy. Phone numbers collected for OTP verification are
+                kept only as long as required for security, regulatory, or operational
+                needs and are not retained longer than necessary.
+              </p>
+            </section>
+
+            {/* 8. SECURITY */}
             <section>
               <h2>8. Security</h2>
               <p>
-                We implement appropriate technical and organizational measures to protect your
-                personal data against unauthorized access, alteration, disclosure, or destruction.
+                We implement industry-standard technical and organizational measures to
+                protect your information from unauthorized access, misuse, loss, or
+                disclosure.
+              </p>
+              <p>
+                While no system is completely immune to security risks, we continuously
+                review and enhance our safeguards to keep your information secure.
               </p>
             </section>
 
+            {/* 9. YOUR RIGHTS */}
             <section>
-              <h2>9. Contact Us</h2>
+              <h2>9. Your Rights</h2>
+              <p>You may have the right to:</p>
+              <ul>
+                <li>Request access to the data we hold about you</li>
+                <li>Request corrections to inaccurate or incomplete data</li>
+                <li>Request deletion of your information, where applicable</li>
+                <li>Withdraw consent for certain types of processing</li>
+              </ul>
               <p>
-                If you have questions about this privacy policy or wish to exercise your rights,
-                please contact us at{" "}
-                <a href="mailto:privacy@silikonnetworks.com">privacy@silikonnetworks.com</a>.
+                To exercise any of these rights, contact us via the email below.
               </p>
             </section>
 
+            {/* 10. CONTACT */}
             <section>
-              <h2>10. Changes to This Policy</h2>
+              <h2>10. Contact Us</h2>
               <p>
-                We may update this privacy policy from time to time. We will notify you of any
-                significant changes by posting the new policy on this page.
+                For privacy-related questions or requests, please contact:
+                <br />
+                <a href="mailto:privacy@silikonnetworks.com">
+                  privacy@silikonnetworks.com
+                </a>
               </p>
             </section>
+
+            {/* 11. UPDATES */}
+            <section>
+              <h2>11. Updates to This Policy</h2>
+              <p>
+                We may update this Privacy Policy occasionally. Any changes will be posted
+                on this page with an updated revision date.
+              </p>
+            </section>
+
           </div>
         </div>
       </section>
     </div>
   );
 }
-

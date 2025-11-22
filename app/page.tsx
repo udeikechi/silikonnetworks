@@ -24,11 +24,11 @@ export default function Home() {
           <h1 id="home-hero-heading" className="sn-hero-title">
             Technology That Moves, Powers, and Connects the World.
           </h1>
-          <p className="sn-hero-subtitle">
+          {/* <p className="sn-hero-subtitle">
             Energy. Trade. Software — built with scale, security and impact in mind.
             From commercial solar and global logistics to custom applications, we design systems
             that keep power and commerce moving.
-          </p>
+          </p> */}
 
           <div className="sn-hero-actions">
             <a href="/services" className="sn-btn sn-btn--lg">

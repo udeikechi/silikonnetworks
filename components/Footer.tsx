@@ -39,7 +39,7 @@ export function Footer() {
           <div>
             <p className="sn-footer-section-title">Contact</p>
             <div className="sn-footer-contact">
-              <p>Email: hello@silikonnetworks.com</p>
+              <p>Email: silikonnetworks@gmail.com</p>
               <p>Phone: +234 708 556 8440</p>
               <p>Head office: 19 Item Street, Umuahia, Abia State, Nigeria</p>
             </div>

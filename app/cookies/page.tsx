@@ -12,7 +12,7 @@ export default function CookiesPage() {
       <section className="sn-section">
         <div className="sn-container">
           <h1>Cookie Policy</h1>
-          <p className="sn-lead">Last updated: [Date]</p>
+          <p className="sn-lead">Last updated: November 21, 2025</p>
 
           <div className="sn-legal-content">
             <section>

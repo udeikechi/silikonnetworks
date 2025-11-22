@@ -303,16 +303,24 @@ main {
 .sn-mobile-nav {
   position: fixed;
   top: 0;
-  inset-inline: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh; /* Dynamic viewport height for mobile */
   padding: 80px 18px 20px;
   background: rgba(0, 12, 32, 0.98);
   color: #ffffff;
   z-index: 30;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .sn-mobile-nav-inner {
   max-width: 1120px;
   margin: 0 auto;
+  height: 100%;
 }
 
 .sn-mobile-nav-group {
@@ -348,6 +356,27 @@ main {
 .sn-mobile-nav-cta-row button,
 .sn-mobile-nav-cta-row a {
   flex: 1;
+}
+
+/* Mobile nav buttons - ensure visibility on dark background */
+.sn-mobile-nav .sn-btn--outline {
+  background: transparent;
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.sn-mobile-nav .sn-btn--outline::before {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.sn-mobile-nav .sn-btn--outline:hover {
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.sn-mobile-nav .sn-btn {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.3);
 }
 
 /* Buttons */
@@ -392,7 +421,9 @@ main {
 .sn-btn--outline {
   background: transparent;
   color: var(--color-primary);
-  border-color: rgba(15, 23, 42, 0.18);
+  border-color: var(--color-primary);
+  border-width: 1px;
+  border-style: solid;
 }
 
 .sn-btn--outline::before {
