@@ -480,6 +480,9 @@ main {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  animation-play-state: running;
+  -webkit-animation-play-state: running;
+  will-change: transform;
 }
 
 .sn-hero-video-overlay {

@@ -93,6 +93,8 @@ export function Header({ onOpenQuote }: HeaderProps) {
               height={40}
               className="sn-logo-img"
               priority
+              loading="eager"
+              fetchPriority="high"
             />
           </Link>
 

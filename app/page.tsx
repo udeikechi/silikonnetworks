@@ -9,6 +9,13 @@ export default function Home() {
             alt="" 
             className="sn-hero-video"
             aria-hidden="true"
+            loading="eager"
+            decoding="async"
+            fetchPriority="high"
+            style={{ 
+              WebkitAnimationPlayState: "running",
+              animationPlayState: "running"
+            }}
           />
           <div className="sn-hero-video-overlay"></div>
         </div>
