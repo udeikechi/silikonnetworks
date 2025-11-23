@@ -41,7 +41,7 @@ const caseStudies: Record<string, any> = {
   "hotel-occupancy-monitoring": {
     title: "Hotel Occupancy Monitoring System",
     division: "Smart Infrastructure",
-    client: "[Hotel Name]",
+    client: "Masters Suite Hotel, Umuahia, Abia State",
     overview: "Deployment of a real-time hotel occupancy and energy monitoring system across guest rooms using PIR sensors, Zigbee hubs, and cloud dashboards.",
     challenge: "High energy usage, lack of real-time room visibility, and operational inefficiencies in housekeeping and facility management.",
     solution: "Installation of PIR sensors, Zigbee hubs, energy monitoring modules, automated data syncing, alerts, and mobile/desktop dashboards for real-time room status tracking.",

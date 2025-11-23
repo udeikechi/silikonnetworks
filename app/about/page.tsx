@@ -11,19 +11,19 @@ export default function AboutPage() {
   // Placeholder leadership - replace with real bios
   const leadership = [
     {
-      name: "Anyadiegwu Chukwunweike F.",
+      name: "Dr. Anyadiegwu Chukwunweike F.",
       role: "Chief Executive Officer",
       bio: "Leading Silikon Networks' strategic vision and operations across all divisions.",
       photo: "https://i1.rgstatic.net/ii/profile.image/11431281172835492-1688663381985_Q128/Chukwunweike-Anyadiegwu.jpg",
     },
     {
-      name: "Ude Ikechi A.",
+      name: "Engr. Ude Ikechi A.",
       role: "Chief Technology Officer",
       bio: "Overseeing technology strategy, software development, and technical operations.",
       photo: "https://i1.rgstatic.net/ii/profile.image/663099363307520-1535106616996_Q128/Ikechi-Ude.jpg",
     },
     {
-      name: "Ezumah Chukwu E.",
+      name: "Engr. Ezumah Chukwu E.",
       role: "Head of Energy Division",
       bio: "Expert in solar systems, power solutions, and energy infrastructure.",
       photo: null,
